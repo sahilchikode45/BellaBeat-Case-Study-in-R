@@ -1,8 +1,8 @@
-daily_activity <- read.csv("..........dailyActivity_merged.csv")
-sleep <- read.csv("..........SleepDay_merged.csv")
-weight <- read.csv("..........weightLogInfo_merged.csv")
-calories <- read.csv("..........hourlyCalories_merged.csv")
-intensities <- read.csv("..........hourlyIntensities_merged.csv")
+daily_activity <- read.csv("dailyActivity_merged.csv")
+sleep <- read.csv("SleepDay_merged.csv")
+weight <- read.csv("weightLogInfo_merged.csv")
+calories <- read.csv("hourlyCalories_merged.csv")
+intensities <- read.csv("hourlyIntensities_merged.csv")
 
 head(daily_activity)
 glimpse(daily_activity)            
