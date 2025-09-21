@@ -1,8 +1,8 @@
-daily_activity <- read.csv("C:/Users/Admin/OneDrive/Desktop/PROJECTS/Bellabeat/Fitabase Data/dailyActivity_merged.csv")
-sleep <- read.csv("C:/Users/Admin/OneDrive/Desktop/PROJECTS/Bellabeat/Fitabase Data/SleepDay_merged.csv")
-weight <- read.csv("C:/Users/Admin/OneDrive/Desktop/PROJECTS/Bellabeat/Fitabase Data/weightLogInfo_merged.csv")
-calories <- read.csv("C:/Users/Admin/OneDrive/Desktop/PROJECTS/Bellabeat/Fitabase Data/hourlyCalories_merged.csv")
-intensities <- read.csv("C:/Users/Admin/OneDrive/Desktop/PROJECTS/Bellabeat/Fitabase Data/hourlyIntensities_merged.csv")
+daily_activity <- read.csv("..........dailyActivity_merged.csv")
+sleep <- read.csv("..........SleepDay_merged.csv")
+weight <- read.csv("..........weightLogInfo_merged.csv")
+calories <- read.csv("..........hourlyCalories_merged.csv")
+intensities <- read.csv("..........hourlyIntensities_merged.csv")
 
 head(daily_activity)
 glimpse(daily_activity)            
